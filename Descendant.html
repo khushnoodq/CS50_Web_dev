@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Descendant</title>
+        <style>
+            ul > li /*Direct descendant: li is a dir desc of ul*/
+            {
+                color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <ol>
+            <li>list item one</li>
+            <li>list item one</li>
+            <ul>
+                <li>sublist item 1</li>
+                <li>sublist item 1</li>
+            </ul>
+            <li>list item three</li>
+        </ol>
+    </body>
+</html>

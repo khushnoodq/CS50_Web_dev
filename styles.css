@@ -1,0 +1,40 @@
+/* Priority order for CSS style application:
+    1) inline
+    2) id
+    3) class
+    4) HTML tag type */
+
+
+h1 
+{
+    color: blue;
+    text-align: center;
+}
+
+#uordl
+{
+    color: blueviolet;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.Names
+{
+    color: crimson;
+    text-align: center;
+    text-decoration: underline;
+}
+
+table
+{
+    border: 3px solid brown;
+    border-collapse: collapse;
+    text-decoration: underline;
+}
+
+td, th
+{
+    border: 2px dotted brown;
+    padding: 2px;
+    text-align: center;
+}
